@@ -17,13 +17,19 @@ p {
    font-family: "Montserrat";
 }
 
+.blog-article p {
+    font-size: 1.5em ;
+    line-height: 1.4;
+}
+
+
 .row {
 
     padding: 5%;
 }
 
 aside {
-    padding-block: 20px;
+    padding: 20px;
 }
 
 aside img {
@@ -96,7 +102,7 @@ footer p {
 }
 
 #title .container-fluid {
-  padding: 1% 15% 0%;
+  padding: 1% 5% 0%;
 }
 
 
