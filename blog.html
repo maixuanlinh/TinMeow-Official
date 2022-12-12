@@ -1,163 +1,231 @@
+    <!DOCTYPE html>
+    <html>
 
-body {
-  font-family: "Montserrat";
-  text-align: center;
-  font-size: 1.5em;
-}
+    <head>
+        <meta charset="utf-8">
+        <title>TinMeow - Find love for your meow</title>
+        <link rel="icon" href="images/tinder-logo.ico">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Black";
-  font-weight: 900
-}
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/blogStyles.css">
 
-h6 {
-    color:#8f8f8f;
-}
-p {
-  color: #8f8f8f;
-   font-family: "Montserrat";
-}
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-/* .blog-article p {
-    font-size: 1.5em ;
-    line-height: 1.4;
-} */
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </head>
 
+    <body>
 
-.row {
+        <section class="colored-section" id="title">
 
-    padding: 5%;
-}
+            <div class="container-fluid">
 
-aside {
-    padding: 20px;
-}
+                <!-- Nav Bar -->
 
-aside img {
-    width: 95%;
-    padding-bottom: 50px;
-}
+                <nav class="navbar navbar-expand-lg navbar-dark">
 
+                    <a class="navbar-brand" href="">tinmeow</a>
 
-footer p {
-    color: #ffffff;
-}
-/* Headings */
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
+                        <ul class="navbar-nav ml-auto">
 
-/* Containers */
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
 
-.container-fluid {
-  padding: 0% 0%;
-}
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
 
-/* Sections */
-
-.colored-section {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.white-section {
-  background-color: #fff;
-}
-
-/* Navigation Bar */
-
-.navbar {
-  padding: 0 0 1rem;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#pricing">Pricing</a>
+                            </li>
 
 
-/* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
-#title .container-fluid {
-  padding: 1% 5% 0%;
-}
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#cta">Download</a>
+                            </li>
 
 
+                        </ul>
 
-#respond {
-    text-align: right;
-    margin-top: 40px;
-}
+                    </div>
+                </nav>
 
-.blog-article {
- text-align: justify;
-  text-justify: inter-word;
-}
-
-/* Type writer effect */
-.typewriter {
-  overflow: hidden; 
-  border-right: .15em solid #ff4c68; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-/* Footer Section */
+            </div>
 
 
+        </section>
 
-.social-icon {
-  margin: 20px 10px;
-}
+        <!-- Title -->
 
-@media (max-width: 1028px) {
+        <div class="row">
 
-  #title {
-    text-align: center;
-  }
+            <div class="col-lg-8">
+                <section>
+                    <article class="blog-article">
+                        <h6>Tinmeow Blog > General Articles</h6>
+                        <h2 style="padding-bottom: 40px;">
+                            Why are kittens so cute? You asked Google.
+                        </h2>
+                        <!--blog content copied from Internet source for presentation purpose only. I am not the author of this text-->
+                        <img style="float: left; padding-right: 25px; padding-bottom: 25px;" alt="Cat image"
+                            src="https://i.guim.co.uk/img/media/7d04c4cb7510a4bd9a8bec449f53425aeccee895/235_183_1394_836/master/1394.jpg?width=445&quality=85&dpr=1&s=none" />
+                        <p>A few months ago, my family and I went to a nearby cat rescue shelter to get a kitten. There were
+                            five in the available litter to choose from, but as we were watching them play, one of the two
+                            tabbies boldly decided to scale a nearby sack of bedding, then promptly fell in head-first and
+                            couldn&rsquo;t get out. Obviously, we had to have that idiot. And that&rsquo;s how we ended up
+                            with Pickle.</p>
+                        <p>Named by my five-year-old son for a character from Blaze and the Monster Machines, Pickle seemed
+                            to have no fear whatsoever, immediately taking to playing with the kids, being manhandled by my
+                            two-year-old daughter, and constantly attempting to sit on me while I&rsquo;m working. But
+                            recently, after all his inoculations and &ldquo;other&rdquo; treatments, we had a cat flap
+                            installed so he could go outside. We were honestly worried about him. He&rsquo;s growing fine
+                            but is still quite slender; he&rsquo;s so young and small still, and there are a lot of other
+                            cats and dogs in our street. Would the little guy be able to cope?</p>
+                        <p>You know in The Dark Knight when Gotham City&rsquo;s all happy because the criminal element has
+                            been tamed by Batman, then the Joker turns up and all hell breaks loose? It was a bit like that,
+                            but with a cat. In the first two weeks of him being outside, Pickle had stared down and scared
+                            off every (bigger, older) cat he could find, started and actually won several fights with next
+                            door&rsquo;s (massive) dog, decided to use the neighbouring children&rsquo;s trampoline as a
+                            toilet, and I recently saw him chase what looked to be two genuinely afraid teenage boys down
+                            the street.</p>
+                        <p>We also recently found a large tuna steak on our garden path. Still no idea where that came from.
+                            So,
+                            far from being a vulnerable, timid little ball of fur, Pickle seems to be an actual psychopath.
+                            And possibly a master thief as well. Even by standard cat stereotypes, this is pushing it
+                            somewhat. Such characteristics do not scream &ldquo;cute&rdquo;. But&hellip; look at his face!
+                        </p>
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
+
+                        <p>Yes, Pickle, a kitten, is still cute. All kittens are. But, why? Why are these miniature
+                            monsters, with their aloofness, numerous spiky bits, and tendency to murder things and bring you
+                            their mangled remains, so capable of triggering human empathy and adoration? They&rsquo;re not
+                            even the same species as us! Countless people ask Google, &ldquo;Why are kittens so cute?&rdquo;
+                            every day, so it&rsquo;s obviously a common question. Thankfully, science has provided a few
+                            answers and explanations.</p>
+                        <p>Much of the earliest work into cuteness as a scientific phenomenon began with the term
+                            &apos;Kindchenschema&apos;</p>
+                        <p>Part of it is the fur. Studies have shown that primates instinctively seek out, even need, soft
+                            pleasant contact, preferably with our own parents and kin, but the basic tactile sensation will
+                            do usually. This may stem from an evolved like of social grooming, and extremely rewarding and
+                            influential practice among social mammals like us, so the very act of running your fingers
+                            through the long soft fur of another being is likely something we respond to at a deep,
+                            instinctive level, so any animal which seems to be all soft fur is going to be instinctively
+                            more appealing. And kittens are exactly that. The Oatmeal&rsquo;s Matt Inman describes stroking
+                            a kitten&rsquo;s tummy as &ldquo;like frolicking in the back hair of an angel&rdquo;, which
+                            sounds just right. This may also explain why scaly or slimy creatures don&rsquo;t get the cute
+                            label, but birds often get a pass, particularly the &rdquo;fluffier&rdquo; ones. Feathers are
+                            nice and soft too, after all.</p>
+                        <p>It&rsquo;s not just the fur though, obviously. Rats and mice have fur, but we have industries
+                            dedicated to wiping them out. And tarantulas are technically furry, but&hellip;</p>
+                        <p>Mini Dachshund sitting in stylish living room. Older and distinguished mini daxie puppy dog
+                            sitting on hardwood floor in modern living room. Wrinkled brown fur matching colors of leather.
+                        </p>
+                        <p>So what else is it about kittens that trigger this cute reflex? Much of the earliest work into
+                            cuteness as a scientific phenomenon began with Austrian scientist Konrad Lorenz who coined the
+                            term &ldquo;Kindchenschema&rdquo;. As the name suggests, it basically proposes that the more
+                            qualities and features something has in common with human babies, the cuter it&rsquo;s perceived
+                            as being. For instance, babies have disproportionately large heads and eyes compared to their
+                            eventual adult form, thanks to the uneven ways the brain and body develop. Kittens (and puppies)
+                            also have large heads and huge eyes, so are considered cuter than the more evenly-proportioned
+                            beady-eyed rodents nature provides us with.</p>
+                        <p>Younger animals generally provoke this cuteness reflex more, even if the adult version is still
+                            relatively small and fluffy. There are many theories as to where it comes from, or what
+                            it&rsquo;s for, but it&rsquo;s a particularly potent one that &ldquo;hijacks&rdquo; many
+                            neurological processes. Many argue that it stems from an evolved pressure to care for babies, as
+                            human ones are so vulnerable and need constant care, so it&rsquo;s good for the species. It can
+                            even go &ldquo;too far&rdquo;, where the cute reflex is powerful but regularly thwarted (due to
+                            species, distance, cultural limits on what&rsquo;s acceptable interaction etc), and results in
+                            aggressive elements being invoked (&ldquo;So cute I could just squeeze it/eat it up!&rdquo; and
+                            so on).</p>
+                        <p>Kittens seem to trigger a lot of the inherent reflexes in our brains that we&rsquo;ve acquired
+                            over the millennia of evolution. Their furry small bodies with the huge heads and eyes tick all
+                            the right boxes, so we find them so cute, we let them get away with murder. Literally.</p>
+
+                    </article>
+
+                    <div id="respond" class="comment-respond">
+                        <h3 id="reply-title">Leave a Reply</h3>
+                        <form action="blog.html" method="post">
+
+                            <label for="comment">Email <span class="required">*</span></label> <textarea id="comment"
+                                name="comment" cols="45" rows="1"></textarea>
+
+                            <p class="email-form-comment"><label for="email-for-comment">Comment <span
+                                        class="required">*</span></label> <textarea id="email-for-comment" name="comment"
+                                    cols="45" rows="6" maxlength="65525" required="" spellcheck="false"></textarea></p>
+
+                            <button class="btn btn-dark">Post comment</button>
+
+
+
+
+                        </form>
+                    </div>
+                </section>
+
+
+            </div>
+
+            <div class="col-lg-4">
+                <aside>
+                    <h6 class="typewriter">Want to get more tips?</h6>
+                    <h4 style="padding-bottom: 40px;">
+                        Join our largest cat lovers' forum today!
+                    </h4>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuIfAoWxI9j-AFdkI4Y04adUZ0a9y8PNStA&usqp=CAU"
+                        alt="sidebar photo">
+
+                    <h4 style="padding-bottom: 40px;">
+                        It's super easy and convenient!
+                    </h4>
+                    <img src="https://play-lh.googleusercontent.com/uG9gleUd3uH47mfLZ8QjHNA6gqyQzFfEj-J3zdMiryVPBbrWY26-QOhkutvVknQeE_Q=w526-h296"
+                        alt="sidebar photo">
+                </aside>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <!-- Footer -->
+
+        <footer class="colored-section" id="footer">
+            <div class="container-fluid">
+                <i class="social-icon fab fa-facebook-f"></i>
+                <i class="social-icon fab fa-twitter"></i>
+                <i class="social-icon fab fa-instagram"></i>
+                <i class="social-icon fas fa-envelope"></i>
+                <p>© Copyright 2022 TinMeow</p>
+            </div>
+        </footer>
+
+
+    </body>
+
+    </html>
